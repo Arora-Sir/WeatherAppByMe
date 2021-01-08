@@ -11,7 +11,7 @@ Run html file on your local host and then...
 5. If user click on the "Temperature" or "speed", it's units changes from °C to °F and from m/s to mph respectively.
 
 I've added the css, html and js file including Icons and text format in the folder.
-
+.
 
 I've added the css file in script of html.
 

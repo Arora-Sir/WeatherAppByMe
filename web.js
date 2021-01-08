@@ -10,7 +10,7 @@ const ShowLocation = document.querySelector('.location')
 const ShowIcon = document.querySelector('.icon')
 const ShowLooking = document.querySelector('.looking')
 const ShowSpeed = document.querySelector('.speed')
-const key = 'db266614dcbaa046477815ea9dc08532' //OpenWeatherMap API Key
+const key = '' //OpenWeatherMap API Key
 const Climate = {}
 
 Climate.windSpeed = {

@@ -1,0 +1,140 @@
+* {
+  font-family: "ostrich-sans";
+}
+
+body {
+  /* background-color: #413e3e; */
+  /* background-image: url(Ico/Background.jpg);
+  background-: url(Ico/Pinterest.ts);
+  padding: 20 20;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center:
+}
+
+.banner video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  /* object-fit: contain; */
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.banner .Box {
+  /* position:fixed;
+  left: 35%;
+  top: 35%; */
+  position: relative;
+  z-index: 1;
+  background-image: url(Ico/BoxBackground.jpg);
+  background-: url(Ico/Pinterest.ts);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1ch;
+  margin: auto;
+  width: 550;
+  height: 652;
+  /* background-color: rgb(103, 114, 212); */
+}
+
+.BoxInside {
+  background-image: url(Ico/InnerBoxBackground.jpg);
+  background-: url(Ico/Pinterest.ts);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  width: 470px;
+  border-radius: 1ch;
+  height: 500;
+  padding-top: 5%; //background-color: rgb(190, 186, 240);
+}
+
+.title {
+  width: 500px;
+  text-align: center;
+  padding: 5;
+  margin: auto;
+  color: #36c2e6;
+  font-size: 1.3em;
+}
+
+.temperature {
+  width: 500px;
+  text-align: center; //position:fixed;
+  margin: auto;
+  color: #c94343;
+  font-size: 3.5em;
+  cursor: pointer;
+}
+
+.SmallTemp {
+  width: 500;
+  text-align: center;
+  margin: auto;
+  color: #4263ac;
+  font-size: 0.85em;
+}
+
+.changeUni {
+  width: 500px;
+  text-align: center;
+  margin: auto;
+  color: #000000;
+  font-size: 0.6em;
+}
+
+.speed {
+  width: 470px;
+  padding: 3;
+  height: 70;
+  text-align: center;
+  margin: auto;
+  color: #3f4100;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+.Constraint {
+  width: 500px;
+  padding: 40;
+  margin-left: 34;
+  color: rgb(179, 174, 248);
+  font-size: 0.9em;
+}
+
+.location {
+  width: 480px;
+  padding: 10;
+  padding-top: 40;
+  text-align: center;
+  margin: auto;
+  color: #054d91;
+  font-size: 1.2em;
+}
+
+.looking {
+  width: 480px;
+  text-align: center;
+  margin: auto;
+  color: #8f8828;
+  font-size: 1.2em;
+}
+
+.icon {
+  width: 120px;
+  margin: auto;
+}

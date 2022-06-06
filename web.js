@@ -25,9 +25,12 @@ let api = `https://api.openweathermap.org/data/2.5/forecast?q=${City}&appid=${ke
 fetch(api)
   .then(function (response) {
     let data = response.json()
+    console.log(data)
     return data
   })
   .then(function (data) {
+    console.log(data)
+  
     Climate.temperature.value = (data.list[hours].main.temp - 273.15).toFixed(2)
     Climate.city = data.city.name
     Climate.country = data.city.country

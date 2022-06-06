@@ -20,7 +20,7 @@ Climate.temperature = {
   unit: 'celsius'
 }
 
-let api = `http://api.openweathermap.org/data/2.5/forecast?q=${City}&appid=${key}`
+let api = `https://api.openweathermap.org/data/2.5/forecast?q=${City}&appid=${key}`
 
 fetch(api)
   .then(function (response) {
